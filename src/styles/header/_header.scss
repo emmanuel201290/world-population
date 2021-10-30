@@ -1,0 +1,124 @@
+.header__main-content {
+    background-color: #2e3136;
+    font-size: 1.2rem;
+    width: 100vw;
+}
+
+.header__container-left {
+    margin-left: 2rem;
+}
+
+.header__container-left label:first-child {
+    margin-top: 13px;
+    margin-bottom: 1px;
+}
+
+.header__container-left-title {
+    color: white;
+
+    hr + label {
+        margin-left: 3.2rem;
+    }
+    hr {
+        border: none;
+        height: 0.12rem;
+        margin: 0.2rem;
+        width: 13rem;
+        background: #e48312;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+    ul:hover a {
+        color: red;
+    }
+}
+
+.header__container-center {
+    align-content: space-between;
+    font-size: 2rem;
+}
+
+.header__container-menu {
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-right: 8rem;
+
+    li {
+        list-style: none;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    hr {
+        border: none;
+        background: #e48312;
+        height: 4vh;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 0.17rem;
+    }
+}
+
+.header__container-menu a:hover {
+    background-color: #cd8618;
+    border-radius: 2rem;
+    text-decoration: none;
+
+    transition-delay: 0.1s;
+}
+
+@media (max-width: 768px) {
+    .header__main-content {
+        font-family: 'Bodoni MT';
+        height: auto;
+    }
+
+    .header__container-left {
+        align-items: revert;
+        display: flex;
+        flex-direction: row;
+        margin: 0.5rem;
+        padding: -3.8rem;
+        width: 93vw;
+    }
+
+    .header__container-button {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        margin-top: -0.4rem;
+        margin-right: 0.2rem;
+        width: 100vw;
+    }
+    .header__container-left-title {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+
+        label {
+            font-size: 1rem;
+            margin: 1rem;
+            margin-right: 0.5rem;
+        }
+
+        hr {
+            width: 0rem;
+        }
+
+        hr + label {
+            margin-left: 0.5rem;
+        }
+    }
+
+    .header__container-center {
+        font-size: 1.3rem;
+    }
+}

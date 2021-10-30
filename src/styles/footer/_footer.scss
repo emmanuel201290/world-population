@@ -1,0 +1,28 @@
+.footer__main-content {
+    display: flex;
+    background-color: #2e3136;
+    font-size: 1.2rem;
+    height: auto;
+    margin-top: auto;
+
+    .footer__center-content {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__information {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        li {
+            padding: 0.8rem;
+            margin-top: 1rem;
+            list-style: none;
+        }
+    }
+}
