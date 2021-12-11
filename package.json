@@ -21,7 +21,14 @@
         "react-transition-group": "^4.4.2",
         "reactstrap": "^8.10.0",
         "styled-components": "^5.3.0",
-        "web-vitals": "^1.0.1"
+        "web-vitals": "^1.0.1",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-node-dependencies": "^0.6.0",
+        "eslint-plugin-react": "^7.24.0",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0",
+        "prettier": "2.3.2"    
     },
     "scripts": {
         "start": "react-scripts start",
@@ -51,8 +58,9 @@
         "**/*": "prettier --write --ignore-unknown"
     },
     "devDependencies": {
-        "eslint": "^7.29.0",
+        "eslint": "^7.32.0",
         "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-node-dependencies": "^0.6.0",
         "eslint-plugin-react": "^7.24.0",
         "husky": "^6.0.0",
         "lint-staged": "^11.0.0",
