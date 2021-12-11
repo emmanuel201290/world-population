@@ -94,7 +94,7 @@ export const BodyInformation = () => {
                         background: '#E48312',
                     }}
                 />
-                <h3>Demography</h3>
+                <h3>In Demography</h3>
                 <p
                     style={{
                         fontFamily: 'Verdana, Arial, Helvetica, sans-serif',
