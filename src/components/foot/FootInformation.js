@@ -9,7 +9,7 @@ export const FootInformation = () => {
                 <div className="footer__information">
                     <li>
                         <a
-                            href="http://localhost:8080/api-docs/"
+                            href="https://github.com/emmanuel201290/world-population"
                             target="noopener"
                             rel="noopener"
                             style={{ color: 'white' }}
